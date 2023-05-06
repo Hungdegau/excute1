@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="text/javascript" lang="javascript">
+      let tip;
+      console.log(typeof tip);
+      let x = 200;
+      let total;
+      if (x >= 50 && x <= 300) {
+        tip = (15 / 100) * x;
+        total = x + tip;
+      } else {
+        tip = (20 / 100) * x;
+        total = x + tip;
+      }
+      console.log(
+        "The bill was " +
+          x +
+          ", the tip was " +
+          tip +
+          ", and the total value " +
+          total
+      );
+    </script>
+  </body>
+</html>
